@@ -18,6 +18,7 @@ class KeyLogger:
             char_key = str(key)
             print(f'Key Pressed: {char_key}')
 
+
         # Calculate typing speed and velocity of keystrokes
         if self.start_time is None:
             self.start_time = time.time()
